@@ -1,0 +1,71 @@
+.mainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 55px 0 65px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .item {
+    width: 320px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .item .image {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #2a69a6;
+    border: 2px solid #2a69a6;
+    align-self: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .item .caption {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 17px;
+    font-weight: bold;
+  }
+  .item .description {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 15%;
+    color: #aaa;
+  }
+  .item .tablete,
+  .item .settings ,
+  .item .scale {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+  }
+  .item .image:hover {
+    border: 2px solid #2a69a6;
+    background-color: #fff;
+  }
+  
+  .item .tablete {
+    background-image: url(../img/iconsprite.png);
+    background-position: 0 0px;
+  }
+  .item .settings  {
+    background-image: url(../img/iconsprite.png);
+    background-position: 60px 0px;
+  }
+  .item .scale {
+    background-image: url(../img/iconsprite.png);
+    background-position: 30px 0px;
+  }
+  .item .image:hover .tablete {
+    background-position: 0 30px;
+  }
+  .item .image:hover .settings  {
+    background-position: 60px 30px;
+  }
+  .item .image:hover .scale {
+    background-position: 30px 30px;
+  }
+  
